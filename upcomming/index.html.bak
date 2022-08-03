@@ -100,11 +100,9 @@
         <br>
         <input class="input" type="text" placeholder="">
         <br>
-		  <div class="icon">
-            <a class="facebook" href="https://web.programming-hero.com/"><i class="fa-brands fa-facebook"></i></a>
-            <a class="linkdin" href="https://web.programming-hero.com/."><i class="fa-brands fa-linkedin"></i></a>
-            <a class="whatsapp" href="https://web.programming-hero.com/."><i class="fa-brands fa-whatsapp-square"></i></a>
-         </div>
+        <a class="facebook" href="https://web.programming-hero.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a class="linkdin" href="https://web.programming-hero.com/."><i class="fa-brands fa-linkedin"></i></a>
+        <a class="whatsapp" href="https://web.programming-hero.com/."><i class="fa-brands fa-whatsapp-square"></i></a>
         <br>
         <br>
         <small>

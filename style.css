@@ -172,6 +172,9 @@ footer
     text-decoration: none;
     color:white;
 }
+.icon{
+    padding-right:40px ;
+}
 .facebook{
     margin-left: 50px;
     font-size: 40px;
@@ -398,4 +401,85 @@ footer
 
     }
 
+
 }
+
+/*----------------------------------------
+------------mobile device-----------------
+-----------------------------------------*/
+@media screen and (min-width:280px) and (max-width:399px) {
+    body{
+        font-size: 10px;
+    }
+    .hide{
+        display: none;
+    }
+    .blog_heading{
+        flex-direction: column;
+    }
+    .text{
+        padding: 30px; 
+        text-align: center; 
+    }
+    .match_distribution{
+        margin-top:0px;
+        padding-left: 0%;
+    }
+    .match_scheduel{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .informaton_match{
+        display: grid;
+        grid-template-columns:230px; 
+    }
+    .link{
+        background-color: transparent;
+    }
+    .link1{
+        font-size: 10px;
+        padding: 10px 10px;
+        border: 2px solid rgb(233, 233, 233);
+        border-radius: 5px;
+    }
+    .link2{
+        font-size: 10px;
+        padding: 10px 30px;
+        border: 2px solid rgb(233, 233, 233);
+        border-radius: 5px;
+    }
+    .link3{
+        font-size: 10px;
+        padding: 10px 30px;
+        border: 2px solid rgb(233, 233, 233);
+        border-radius: 5px;
+        background-color: red;
+    }
+
+    .selected{
+        background-color:transparent;
+        border:2px solid white;
+
+    }
+    .selected2{
+        background-color:transparent;
+        border:1px solid white;
+
+    }
+    .tablet_hide{
+        display: none;
+    }
+    .footer_link{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
